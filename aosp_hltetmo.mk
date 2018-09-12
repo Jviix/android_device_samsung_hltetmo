@@ -19,4 +19,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/hltetmo/full_hltetmo.mk)
 
 PRODUCT_DEVICE := hltetmo
-PRODUCT_NAME := lineage_hltetmo
+PRODUCT_NAME := aosp_hltetmo
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_ARCH := arm
+TARGET_DENSITY := xxhdpi
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm
